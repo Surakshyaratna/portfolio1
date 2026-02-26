@@ -4,7 +4,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="min-h-screen bg-black text-white font-sans selection:bg-purple-500/30">
-      
+
       {/* Glass Navbar */}
       <nav className="fixed top-0 w-full z-50 px-6 py-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center backdrop-blur-md bg-white/5 border border-white/10 px-6 py-3 rounded-2xl">
@@ -33,19 +33,19 @@ const App = () => {
             </h2>
             <h1 className="text-5xl md:text-8xl font-extrabold mb-6 leading-tight tracking-tight">
               Fullstack <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">
+              <span className="text-transparent bg-clip-text bg-linear-to-r from-white to-gray-500">
                 Developer.
               </span>
             </h1>
             <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">
-              I build scalable web applications with a focus on high-performance 
-              architecture and seamless user experiences. Turning complex problems 
+              I build scalable web applications with a focus on high-performance
+              architecture and seamless user experiences. Turning complex problems
               into elegant, functional code.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <button className="px-8 py-4 bg-white text-black font-bold rounded-xl hover:scale-105 transition-transform">
-                View My Work
+                My Work
               </button>
               <button className="px-8 py-4 border border-white/20 backdrop-blur-sm hover:bg-white/5 rounded-xl transition-all">
                 Download CV
@@ -56,8 +56,8 @@ const App = () => {
           {/* Abstract Glass Card/Image Placeholder */}
           <div className="mt-16 md:mt-0 md:w-1/3 flex justify-center">
             <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-              <div className="relative w-64 h-80 md:w-80 md:h-[450px] bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl flex items-center justify-center overflow-hidden">
+              <div className="absolute -inset-1 bg-linear-to-r from-purple-600 to-blue-600 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+              <div className="relative w-64 h-80 md:w-80 md:h-112.5 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl flex items-center justify-center overflow-hidden">
                 <span className="text-gray-600 italic">Portrait or Tech Stack Illustration</span>
               </div>
             </div>
@@ -65,6 +65,8 @@ const App = () => {
         </div>
       </section>
 
+    
+      
       {/* Skills/Tech Section (Minimalist) */}
       <footer className="py-10 border-t border-white/5">
         <div className="max-w-7xl mx-auto px-6 flex flex-wrap justify-center gap-8 opacity-50 grayscale hover:grayscale-0 transition-all">

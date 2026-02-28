@@ -21,7 +21,12 @@ export default function HeroSection() {
 
       {/* Name */}
       <h1
-        className="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-tight mb-6 gradient-text gradient-chrome"
+        className={`
+    font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl 
+    leading-tight mb-6 
+    text-black dark:text-transparent 
+    dark:bg-clip-text dark:gradient-chrome
+  `}
         style={{ fontFamily: "Orbitron, sans-serif" }}
       >
         Surakshya
@@ -42,7 +47,7 @@ export default function HeroSection() {
         <button
           type="button"
           onClick={() => scrollToSection("#projects")}
-          className="px-6 py-3 rounded-full text-sm font-medium transition-all bg-foreground text-background hover:opacity-90"
+          className="px-6 py-3 rounded-full text-sm font-medium transition-all bg-foreground text-background hover:opacity-80"
           style={{ fontFamily: "Space Grotesk, sans-serif" }}
         >
           View Work
@@ -51,7 +56,7 @@ export default function HeroSection() {
         <button
           type="button"
           onClick={() => scrollToSection("#contact")}
-          className="px-6 py-3 rounded-full text-sm font-medium border border-foreground/30 text-foreground hover:border-foreground/60 transition-all"
+          className="px-6 py-3 rounded-full text-sm font-medium transition-all bg-foreground text-background hover:opacity-80"
           style={{ fontFamily: "Space Grotesk, sans-serif" }}
         >
           Contact

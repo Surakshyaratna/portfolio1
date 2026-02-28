@@ -15,9 +15,9 @@ export default function ContactSection() {
   }, []);
 
   const contactLinks = [
-    { name: "Email", href: "mailto:surakshya.ratna@example.com", icon: <Mail className="h-5 w-5" />, label: "surakshya.ratna@example.com" },
+    { name: "Email", href: "mailto:surakshya.ratna@gmail.com", icon: <Mail className="h-5 w-5" />, label: "surakshya.ratna@gmail.com" },
     { name: "GitHub", href: "https://github.com/surakshyaratna", icon: <Github className="h-5 w-5" />, label: "github.com/surakshyaratna" },
-    { name: "LinkedIn", href: "https://linkedin.com/in/surakshyaratna", icon: <Linkedin className="h-5 w-5" />, label: "linkedin.com/in/surakshyaratna" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/surakshya-ratna", icon: <Linkedin className="h-5 w-5" />, label: "linkedin.com/in/surakshyaratna" },
   ];
 
   return (

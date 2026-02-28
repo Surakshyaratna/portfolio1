@@ -47,7 +47,7 @@ export default function Navigation() {
             max-w-[1200px] mx-auto flex justify-between items-center
             backdrop-blur-md bg-white/5 dark:bg-black/5
             border border-white/10
-            px-6 py-3 rounded-2xl
+            px-6 py-4 rounded-2xl
             transition-all duration-300
             ${isScrolled ? "shadow-md dark:shadow-lg shadow-black/10 dark:shadow-black/30" : ""}
           `}
